@@ -21,14 +21,14 @@ bot.addCommand(
 
 ╭────────────────
 │ Prefix : ${PREFIX}
-│ User : ${message.pushName}
+│ User : ${message.lovean}
 │ Time : ${date.toLocaleTimeString()}
 │ Day : ${date.toLocaleString('en', { weekday: 'long' })}
 │ Date : ${date.toLocaleDateString('hi')}
 │ Version : ${VERSION}
 │ Plugins : ${PLUGINS.count}
 │ Ram : ${getRam()}
-│ Uptime : ${getUptime('t')}
+│ Uptime : ${getUptime('2 hours')}
 ╰────────────────
 ╭────────────────
 `
