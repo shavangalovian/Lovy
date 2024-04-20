@@ -6,8 +6,8 @@
   "env": {
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
-      "required": false,
-      "value": "false"
+      "required": "true",
+      "value": "true"
     },
     "LOG_MSG": {
       "description": "Show whatsapp msgs in log",
@@ -27,11 +27,11 @@
     "SESSION_ID": {
       "description": "session id",
       "required": true,
-      "value": ""
+      "value": "1234567890"
     },
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
-      "required": false,
+      "required": "true",
       "value": "❤️,LyFE"
     },
     "HEROKU_APP_NAME": {
@@ -69,12 +69,12 @@
     },
     "ANTILINK_MSG": {
       "description": "Message send when antilink and action is kick.",
-      "required": false,
+      "required": "true",
       "value": "_Antilink Detected &mention kicked_"
     },
     "ANTISPAM_MSG": {
       "description": "Message send when antispam.",
-      "required": false,
+      "required": "true",
       "value": "_Antispam Detected &mention kicked_"
     },
     "ANTIWORDS_MSG": {
@@ -99,8 +99,8 @@
     },
     "AUTO_STATUS_VIEW": {
       "description": "view others status",
-      "required": false,
-      "value": "false"
+      "required": "true",
+      "value": "true"
     },
     "SEND_READ": {
       "description": "send blue tick",
